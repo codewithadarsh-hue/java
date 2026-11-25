@@ -20,8 +20,7 @@ public class logincheck {
         String password = input.nextLine();
 
         // Check whether both credentials match
-        if (username.equals(defaultUsername) &&
-            password.equals(defaultPassword)) {
+        if ((username==defaultUsername) && (password==defaultPassword)) {
 
             System.out.println("Login Successful");
 
